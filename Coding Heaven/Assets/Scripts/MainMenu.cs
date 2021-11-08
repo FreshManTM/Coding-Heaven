@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    [SerializeField]int money, money_click, passive_click;
+    [SerializeField]int money, money_click = 10, passive_click;
     public Text moneyText;
 
     [SerializeField]int[] activePref;
@@ -81,7 +81,8 @@ public class MainMenu : MonoBehaviour
         yield return new WaitForSeconds(1);
         money += passive_click;
         PlayerPrefs.SetInt("money", money);
-        EffectController.Instance.CreatePassiveEffect(passive_click);
+        if(passive_click != 0)
+            EffectController.Instance.CreatePassiveEffect(passive_click);
         StartCoroutine(PassiveFarm());
         
     }
@@ -96,5 +97,10 @@ public class MainMenu : MonoBehaviour
         yield return new WaitForSeconds(.1f);
         SceneManager.LoadScene(1);
 
+    }
+    public void Buttonnnnnn()
+    {
+        money_click += 10;
+        Savings();
     }
 }
