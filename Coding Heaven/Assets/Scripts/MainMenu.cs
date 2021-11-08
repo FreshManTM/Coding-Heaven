@@ -30,7 +30,7 @@ public class MainMenu : MonoBehaviour
         money = PlayerPrefs.GetInt("money");
         money_click = PlayerPrefs.GetInt("money_click");
         passive_click = PlayerPrefs.GetInt("passive_click");
-       
+        if (money_click == 0) money_click = 2;
 
         StartCoroutine(PassiveFarm());
 
@@ -56,9 +56,7 @@ public class MainMenu : MonoBehaviour
 
     private void Update()
     {
-        moneyText.text = "Money: " + money.ToString() + "$";
-       
-        
+        moneyText.text = "Money: " + money.ToString() + "$";       
     }
 
     public void ButtonClick()

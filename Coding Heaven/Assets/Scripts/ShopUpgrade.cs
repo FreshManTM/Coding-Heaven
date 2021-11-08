@@ -28,6 +28,7 @@ public class ShopUpgrade : MonoBehaviour
     [SerializeField] int progressScale = 10;
     [SerializeField] int progressProgram = 0;
     [SerializeField] Text progressText;
+    [SerializeField] Text plusText;
     [SerializeField] int maxProgress = 5;
     private Save sv = new Save();
 
@@ -150,6 +151,7 @@ public class ShopUpgrade : MonoBehaviour
         moneyText.text = "Money: " + money.ToString() + "$";
         SaveCostShop();
         progressText.text = progressProgram.ToString() + "/" + maxProgress.ToString();
+        plusText.text = "Earnings for click: +" + progressScale.ToString() + "$" +'\n' + "Passive earnings: +" + progressScale.ToString() + "$";
         PlayerPrefs.SetInt("progressProgram", progressProgram);
         PlayerPrefs.SetInt("maxProgress", maxProgress);
     }
@@ -163,7 +165,7 @@ public class ShopUpgrade : MonoBehaviour
 
 
             money -= CostClick[6];
-            CostClick[6] += 1000;
+            CostClick[6] += 500;
             money_click += progressScale;
             passive_click += progressScale - 5;
             CostText[6].text = CostClick[6] + "$";
