@@ -25,7 +25,7 @@ public class ShopUpgrade : MonoBehaviour
     [SerializeField] GameObject[] buttonsOff;
 
     [Header("Programing Upgrade")]
-    [SerializeField] int progressScale = 10;
+    [SerializeField] int progressScale = 5;
     [SerializeField] int progressProgram = 0;
     [SerializeField] Text progressText;
     [SerializeField] Text plusText;
@@ -49,6 +49,25 @@ public class ShopUpgrade : MonoBehaviour
         progressScale = PlayerPrefs.GetInt("progressScale");
         progressProgram = PlayerPrefs.GetInt("progressProgram");
         maxProgress = PlayerPrefs.GetInt("maxProgress");
+        if (maxProgress == 0)
+            maxProgress = 5;
+        
+        if (progressScale == 0) 
+            progressScale = 5;
+        //if (CostClick[0] == 500)
+        //    CostClick[0] = 20000;
+        //if (CostClick[1] == 500)
+        //    CostClick[1] = 25000;
+        //if (CostClick[2] == 500)
+        //    CostClick[2] = 25000;
+        //if (CostClick[3] == 500)
+        //    CostClick[3] = 30000;
+        //if (CostClick[4] == 500)
+        //    CostClick[4] = 35000;
+        //if (CostClick[5] == 500)
+        //    CostClick[5] = 200000;
+        //if (CostClick[6] == 500)
+        //    CostClick[6] = 1000;
 
         PrefStart();
     }
@@ -165,9 +184,9 @@ public class ShopUpgrade : MonoBehaviour
 
 
             money -= CostClick[6];
-            CostClick[6] += 500;
+            CostClick[6] += 1000;
             money_click += progressScale;
-            passive_click += progressScale - 5;
+            passive_click += progressScale;
             CostText[6].text = CostClick[6] + "$";
             PlayerPrefs.SetInt("money", money);
             PlayerPrefs.SetInt("money_click", money_click);
@@ -181,7 +200,7 @@ public class ShopUpgrade : MonoBehaviour
         {
             progressProgram = 0;
             maxProgress += 5;
-            progressScale += 10;
+            progressScale += 5;
             PlayerPrefs.SetInt("progressScale", progressScale);
             PlayerPrefs.SetInt("progressProgram", progressProgram);
             PlayerPrefs.SetInt("maxProgress", maxProgress);
@@ -195,8 +214,8 @@ public class ShopUpgrade : MonoBehaviour
 
             money -= CostClick[0];
             CostClick[0] *= 2;
-            money_click += 5;
-            passive_click += 5;
+            money_click += 15;
+            passive_click += 15;
             CostText[0].text = CostClick[0] + "$";
             PlayerPrefs.SetInt("money", money);
             PlayerPrefs.SetInt("money_click", money_click);
@@ -222,9 +241,9 @@ public class ShopUpgrade : MonoBehaviour
             upgradeClick.Play();
 
             money -= CostClick[1];
-            CostClick[1] *= 2;
-            money_click += 5;
-            passive_click += 10;
+            CostClick[1] = CostClick[1] * 2 + 10000;
+            money_click += 20;
+            passive_click += 15;
             CostText[1].text = CostClick[1] + "$";
             PlayerPrefs.SetInt("money", money);
             PlayerPrefs.SetInt("money_click", money_click);
@@ -250,9 +269,9 @@ public class ShopUpgrade : MonoBehaviour
             upgradeClick.Play();
 
             money -= CostClick[2];
-            CostClick[2] *= 2;
-            money_click += 10;
-            passive_click += 10;
+            CostClick[2] = CostClick[1] * 2 + 10000;
+            money_click += 15;
+            passive_click += 20;
             CostText[2].text = CostClick[2] + "$";
             PlayerPrefs.SetInt("money", money);
             PlayerPrefs.SetInt("money_click", money_click);
@@ -279,8 +298,8 @@ public class ShopUpgrade : MonoBehaviour
 
             money -= CostClick[3];
             CostClick[3] *= 2;
-            money_click += 5;
-            passive_click += 10;
+            money_click += 25;
+            passive_click += 25;
             CostText[3].text = CostClick[3] + "$";
             PlayerPrefs.SetInt("money", money);
             PlayerPrefs.SetInt("money_click", money_click);
@@ -307,8 +326,8 @@ public class ShopUpgrade : MonoBehaviour
 
             money -= CostClick[4];
             CostClick[4] *= 2;
-            money_click += 5;
-            passive_click += 10;
+            money_click += 25;
+            passive_click += 25;
             CostText[4].text = CostClick[4] + "$";
             PlayerPrefs.SetInt("money", money);
             PlayerPrefs.SetInt("money_click", money_click);
@@ -334,9 +353,8 @@ public class ShopUpgrade : MonoBehaviour
             upgradeClick.Play();
 
             money -= CostClick[5];
-            CostClick[5] *= 2;
-            money_click += 5;
-            passive_click += 10;
+            money_click += 40;
+            passive_click += 40;
             CostText[5].text = CostClick[5] + "$";
             PlayerPrefs.SetInt("money", money);
             PlayerPrefs.SetInt("money_click", money_click);

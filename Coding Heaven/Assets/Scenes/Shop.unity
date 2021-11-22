@@ -407,36 +407,6 @@ RectTransform:
   m_AnchoredPosition: {x: 639.9975, y: -175.42188}
   m_SizeDelta: {x: 55.5833, y: 17.8031}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &50909090
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 50909091}
-  m_Layer: 0
-  m_Name: Images
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &50909091
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 50909090}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.014137, z: 0}
-  m_LocalScale: {x: 19.706886, y: 19.706886, z: 19.706886}
-  m_Children: []
-  m_Father: {fileID: 1788682972}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &93914636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1006,8 +976,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 174.08249, y: -130}
-  m_SizeDelta: {x: 425.0662, y: 311.2619}
+  m_AnchoredPosition: {x: 177.74112, y: -130}
+  m_SizeDelta: {x: 447.011, y: 311.262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &236035180
 MonoBehaviour:
@@ -1031,7 +1001,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3dce9139a277d9c478de15d449381ba4, type: 3}
-    m_FontSize: 100
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1373,8 +1343,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 174.08249, y: -131}
-  m_SizeDelta: {x: 425.0662, y: 311.2619}
+  m_AnchoredPosition: {x: 177.74112, y: -131}
+  m_SizeDelta: {x: 447.011, y: 311.262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &293005137
 MonoBehaviour:
@@ -1398,7 +1368,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3dce9139a277d9c478de15d449381ba4, type: 3}
-    m_FontSize: 100
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1762,8 +1732,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 172.23465, y: -130}
-  m_SizeDelta: {x: 425.0662, y: 311.2619}
+  m_AnchoredPosition: {x: 175.89311, y: -130}
+  m_SizeDelta: {x: 447.011, y: 311.262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &342648889
 MonoBehaviour:
@@ -1787,7 +1757,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3dce9139a277d9c478de15d449381ba4, type: 3}
-    m_FontSize: 100
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1852,12 +1822,13 @@ RectTransform:
   - {fileID: 1929048857}
   - {fileID: 1670299544}
   - {fileID: 1992751132}
+  - {fileID: 1305972545}
   m_Father: {fileID: 1788682972}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000037092, y: -596.73}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0.000037092, y: 507}
   m_SizeDelta: {x: 1280, y: 403.515}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &349543131
@@ -2158,8 +2129,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 172, y: -132}
-  m_SizeDelta: {x: 425.0662, y: 311.2619}
+  m_AnchoredPosition: {x: 175.65813, y: -132}
+  m_SizeDelta: {x: 447.011, y: 311.262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &390359695
 MonoBehaviour:
@@ -2183,7 +2154,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3dce9139a277d9c478de15d449381ba4, type: 3}
-    m_FontSize: 100
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -2317,7 +2288,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 6.060028, y: -3.2816162}
+  m_AnchoredPosition: {x: 6.0600586, y: -3.2816162}
   m_SizeDelta: {x: 425.0662, y: 311.2619}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &606715215
@@ -2353,9 +2324,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Earnings for click: +5$
+  m_Text: 'Earnings for click: +15$
 
-    Passive earnings: +5$'
+    Passive earnings: +15$'
 --- !u!222 &606715216
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2701,6 +2672,85 @@ Transform:
   m_Father: {fileID: 780301174}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &731910142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 731910143}
+  - component: {fileID: 731910145}
+  - component: {fileID: 731910144}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &731910143
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731910142}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1305972545}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.00012207031, y: -0.00012207031}
+  m_SizeDelta: {x: 102.28, y: 126.33}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &731910144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731910142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+    m_FontSize: 170
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 190
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: i
+--- !u!222 &731910145
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731910142}
+  m_CullTransparentMesh: 1
 --- !u!1 &743415354
 GameObject:
   m_ObjectHideFlags: 0
@@ -2735,8 +2785,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 174.08249, y: -134}
-  m_SizeDelta: {x: 425.0662, y: 311.2619}
+  m_AnchoredPosition: {x: 177.74112, y: -134.00002}
+  m_SizeDelta: {x: 447.011, y: 311.262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &743415356
 MonoBehaviour:
@@ -2760,7 +2810,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3dce9139a277d9c478de15d449381ba4, type: 3}
-    m_FontSize: 100
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -3161,7 +3211,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -2.915, y: 1052}
-  m_SizeDelta: {x: 924.943, y: 123.301}
+  m_SizeDelta: {x: 924.943, y: 123.301025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &784691512
 MonoBehaviour:
@@ -3618,7 +3668,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 10000$
+  m_Text: 500$
 --- !u!222 &830394283
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3756,13 +3806,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   money: 0
-  money_click: 0
+  money_click: 2
   passive_click: 0
   activePref: 000000000000000000000000000000000000000000000000
   moneyText: {fileID: 784691512}
   buttonsClick: {fileID: 348521940}
   upgradeClick: {fileID: 1184712463}
-  CostClick: 64000000f4010000f4010000f4010000f4010000f4010000f4010000
+  CostClick: 204e0000a8610000a861000030750000b8880000400d0300e8030000
   CostText:
   - {fileID: 390359695}
   - {fileID: 342648889}
@@ -3785,11 +3835,11 @@ MonoBehaviour:
   - {fileID: 1758594158}
   - {fileID: 1794521762}
   - {fileID: 780301173}
-  progressScale: 10
+  progressScale: 5
   progressProgram: 0
   progressText: {fileID: 1929048858}
   plusText: {fileID: 1951224671}
-  maxProgress: 0
+  maxProgress: 5
   lampPref:
   - {fileID: 114408157}
   - {fileID: 1678719672}
@@ -4262,9 +4312,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Earnings for click: +5$
+  m_Text: 'Earnings for click: +20$
 
-    Passive earnings: +10$'
+    Passive earnings: +15$'
 --- !u!222 &1108867212
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4550,9 +4600,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Earnings for click: +30$
+  m_Text: 'Earnings for click: +40$
 
-    Passive earnings: +30$'
+    Passive earnings: +40$'
 --- !u!222 &1299673561
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4587,18 +4637,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1305972544}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.94909656, y: 0.94909656, z: 0.94909656}
   m_Children:
   - {fileID: 1897044707}
-  m_Father: {fileID: 1631845989}
-  m_RootOrder: 4
+  - {fileID: 731910143}
+  m_Father: {fileID: 349543130}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -586, y: -475}
-  m_SizeDelta: {x: 94, y: 97}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -52.315857, y: 338.49463}
+  m_SizeDelta: {x: 102.278076, y: 126.331055}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1305972546
 MonoBehaviour:
@@ -4676,8 +4727,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 4b46e04311062344a98ebfa10feb6814, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4995,9 +5046,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Earnings for click: +10$
+  m_Text: 'Earnings for click: +25$
 
-    Passive earnings: +10$'
+    Passive earnings: +25$'
 --- !u!222 &1409143214
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5208,7 +5259,6 @@ RectTransform:
   - {fileID: 784691511}
   - {fileID: 100316382}
   - {fileID: 1788682972}
-  - {fileID: 1305972545}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5406,7 +5456,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1718188963
@@ -5513,8 +5563,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 174.08249, y: -131}
-  m_SizeDelta: {x: 425.0662, y: 311.2619}
+  m_AnchoredPosition: {x: 177.74112, y: -131}
+  m_SizeDelta: {x: 447.011, y: 311.262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1743976759
 MonoBehaviour:
@@ -5538,7 +5588,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3dce9139a277d9c478de15d449381ba4, type: 3}
-    m_FontSize: 100
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -5665,14 +5715,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1111162510}
-  - {fileID: 50909091}
   - {fileID: 349543130}
   m_Father: {fileID: 1631845989}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.638e-12, y: 0.014137}
+  m_AnchoredPosition: {x: 0, y: 0.014160156}
   m_SizeDelta: {x: 1280, y: 2275.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1794088084
@@ -6696,9 +6745,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Earnings for click: +10$
+  m_Text: 'Earnings for click: +15$
 
-    Passive earnings: +5$'
+    Passive earnings: +20$'
 --- !u!222 &1905809960
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7016,9 +7065,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Earnings for click: +20$
+  m_Text: 'Earnings for click: +25$
 
-    Passive earnings: +20$'
+    Passive earnings: +25$'
 --- !u!222 &1991363932
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7061,8 +7110,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -463.6998, y: 10.848}
-  m_SizeDelta: {x: 263.22, y: 298.81}
+  m_AnchoredPosition: {x: -458.18, y: 10.849}
+  m_SizeDelta: {x: 265.76, y: 298.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1992751133
 MonoBehaviour:
@@ -7084,7 +7133,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3c8083f05f10f0f469d650efc7e77f2f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3d5da3792960ce440a22a6c6582909c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
